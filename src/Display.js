@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Display = ({item,index}) => {
+const Display = ({item,index,changeHandler}) => {
     const handler = e=>{
-        alert(e.target.value)
+        let temp = item.answer === e.target.value ? 1 : 0;
+        changeHandler(temp);
     }
   return (
     <div className="app">
