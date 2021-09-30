@@ -1,0 +1,11 @@
+h1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .app{
+      text-align: left;
+      border: 1px solid blue;
+      margin:4px;
+      padding:2px;
+  }
