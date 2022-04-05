@@ -14,7 +14,9 @@ const App = () => {
 	}
   return (
 	<div>
+	  <h1>Go to Page</h1>
 	  <h1>Quiz Application</h1>
+	  
 	  {Questions.map((item,index)=>{
 		  return (
                <Display item={item} index={index} onChange={changeHandler} />
